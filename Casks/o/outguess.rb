@@ -3,7 +3,8 @@ cask "outguess" do
   sha256 :no_check
 
   url "https://www.rbcafe.com/download/outguess.zip",
-      user_agent: :browser
+      user_agent: :browser,
+      referer:    "https://www.rbcafe.com/software/outguess/"
   name "Outguess"
   desc "Steganography tool to hide a document in an image"
   homepage "https://www.rbcafe.com/software/outguess/"
